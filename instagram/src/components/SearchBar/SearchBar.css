@@ -1,0 +1,49 @@
+.navContainer {
+    border-bottom: 1px solid #3333;
+    height: 80px;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+  }
+  
+  .logo, .camera {
+    height: 50px;
+    margin: 0px;
+  }
+
+  .logo {
+    margin: 15px 0px 0px -525px;
+  }
+
+  .camera {
+    margin-top: 10px;
+    padding: 0px 25px;
+    border-right: 1px solid black;
+  }
+  
+  .logoImages {
+    height: 80%;
+  }
+  
+  .navBtnContainer {
+    display: flex;
+  }
+  
+  .navBtn {
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .navBtn:last-child {
+    margin-right: 40px;
+  }
+
+  .search {
+    margin-left: -130px;
+    border-radius: 15px;
+  }
+
+  input {
+    text-align: center;
+  }
